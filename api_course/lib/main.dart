@@ -1,3 +1,5 @@
+import 'package:api_course/pages/Exampe_2.dart';
+import 'package:api_course/pages/example_1.dart';
 import 'package:api_course/pages/home.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomePage(),);
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Example2(),);
   }
 }

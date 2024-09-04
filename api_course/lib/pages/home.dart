@@ -81,8 +81,8 @@ class HomePage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.start,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                            Text('Title\n' + postList[index].title.toString()),
-                            Text('Descreption\n' + postList[index].body.toString()),
+                            Text('Title:\n${postList[index].title}'),
+                            Text('Descreption:\n${postList[index].body}'),
                           ],),
                         ),
                       );
