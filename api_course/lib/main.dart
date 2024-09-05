@@ -1,5 +1,6 @@
 import 'package:api_course/pages/Exampe_2.dart';
 import 'package:api_course/pages/example_1.dart';
+import 'package:api_course/pages/example_3_complex_json.dart';
 import 'package:api_course/pages/home.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Example2(),);
+      home: Example3Api(),);
   }
 }
